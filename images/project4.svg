@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f5f5f5"/>
+  <g transform="translate(100, 80)">
+    <rect x="0" y="0" width="200" height="140" rx="10" fill="#00695c" opacity="0.8"/>
+    <text x="100" y="70" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Event Theme</text>
+    <text x="100" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Based Website</text>
+    <g transform="translate(50, 110)">
+      <rect x="0" y="0" width="30" height="20" rx="5" fill="white" opacity="0.7"/>
+      <rect x="40" y="0" width="30" height="20" rx="5" fill="white" opacity="0.7"/>
+      <rect x="80" y="0" width="30" height="20" rx="5" fill="white" opacity="0.7"/>
+    </g>
+  </g>
+</svg>
