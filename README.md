@@ -31,12 +31,6 @@
 - **Certifications**: Professional certifications
 - **Contact**: Contact form and information
 
-## How to Run
-
-1. Clone or download this repository
-2. Open `index.html` in your web browser
-3. Navigate through the website using the menu
-
 ## Project Structure
 
 ```
