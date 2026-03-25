@@ -31,32 +31,6 @@
 - **Certifications**: Professional certifications
 - **Contact**: Contact form and information
 
-## Project Structure
-
-```
-├── index.html              # Main HTML file
-├── css/                    # CSS stylesheets
-│   ├── style.css           # Main stylesheet
-│   └── project-detail.css  # Project detail page styles
-├── js/                     # JavaScript files
-│   └── script.js           # Main script file
-├── images/                 # Image assets
-│   ├── project1.svg        # Project thumbnails
-│   ├── project2.svg
-│   └── ...
-└── projects/               # Project detail pages
-    ├── vtu-enotes.html     # VTU E-Notes project page
-    └── ...
-```
-
-## Future Enhancements
-
-- Dark/Light theme toggle
-- Blog section
-- Portfolio filtering options
-- More interactive elements
-- Backend integration for contact form
-
 ## Credits
 
 - Font Awesome for icons
