@@ -31,12 +31,6 @@
 - **Certifications**: Professional certifications
 - **Contact**: Contact form and information
 
-## Credits
-
-- Font Awesome for icons
-- Google Fonts for typography
-- Inspiration from modern portfolio designs
-
 ## License
 ---
 
