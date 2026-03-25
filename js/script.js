@@ -1,31 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    initCursor();
     initMobileMenu();
     initScrollReveal();
     initStickyHeader();
     initSmoothScroll();
 });
-
-// Custom Cursor
-function initCursor() {
-    const cursor = document.querySelector('.cursor-follower');
-    if (!cursor) return;
-
-    if (window.innerWidth > 768) {
-        document.addEventListener('mousemove', (e) => {
-            requestAnimationFrame(() => {
-                cursor.style.left = `${e.clientX}px`;
-                cursor.style.top = `${e.clientY}px`;
-            });
-        });
-
-        const interactiveEls = document.querySelectorAll('a, button, .glass-card, .project-card, .skill-tag');
-        interactiveEls.forEach(el => {
-            el.addEventListener('mouseenter', () => cursor.classList.add('expand'));
-            el.addEventListener('mouseleave', () => cursor.classList.remove('expand'));
-        });
-    }
-}
 
 // Mobile Menu
 function initMobileMenu() {
