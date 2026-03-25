@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sridhar Y Gowdar - Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Sridhar Y Gowdar | Portfolio</title>
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="cursor-follower"></div>
-    
-    <!-- Header Section -->
+
+    <!-- Header -->
     <header>
         <div class="logo">
-            <h1>SYG<span>.!</span></h1>
+            <h1>SYG<span>.AI</span></h1>
         </div>
         <nav>
             <ul>
                 <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -34,269 +34,162 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="animate-text">Hi, I'm <span>Sridhar Y Gowdar</span></h1>
-            <p class="animate-text-delay">Web Developer and Computer Science and Engineering Student</p>
-            <div class="hero-buttons animate-text-delay-2">
+        <div class="hero-content reveal">
+            <h1>Hi, I'm <br><span>Sridhar Y Gowdar</span></h1>
+            <p>Full-Stack Developer & AI/ML Enthusiast</p>
+            <div class="hero-buttons">
                 <a href="#projects" class="btn primary">View Projects</a>
-                <a href="#contact" class="btn secondary">Contact Me</a>
+                <a href="SDE.pdf" download class="btn secondary">Download CV</a>
             </div>
-            <div class="social-icons animate-text-delay-3">
-                <a href="https://www.linkedin.com/in/sridhar-y-gowdar-66a74a276" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sridhar-y-gowdar-66a74a276" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/sridhar-y-g" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="mailto:sridharygowdar@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
-        </div>
-        <div class="hero-image animate-float">
-            <div class="shape"></div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="section-header">
-            <h2>About Me</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="about-content">
-            <div class="about-image">
-                <div class="image-container">
-                    <div class="image-placeholder"></div>
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid reveal">
+                <div class="about-img-wrap">
+                    <div class="about-img-placeholder"></div>
                 </div>
-                <div class="experience-box">
-                    <h3>Experience</h3>
-                    <p>Fresher</p>
+                <div class="about-info">
+                    <h3>Computer Science Engineering Student</h3>
+                    <p>A proactive and enthusiastic computer science student specializing in Full-Stack Development and AI/ML. Proven ability to architect and deploy end-to-end applications using Java (Spring Boot) and Python. Seeking challenging roles to apply technical expertise and contribute to a high-growth environment.</p>
+                    
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span>Email</span>
+                            <span>sridharygowdar@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Phone</span>
+                            <span>+91 8073077375</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Education</span>
+                            <span>B.E | VTU (CGPA: 8.52)</span>
+                        </div>
+                        <div class="info-item">
+                            <span>Location</span>
+                            <span>Bengaluru, India</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="about-text">
-                <h3>Computer Science and Engineering Student</h3>
-                <p>Focusing on Software Engineering and ready to explore new technologies and learn skills</p>
-                <div class="personal-info">
-                    <div class="info-item">
-                        <span class="info-title">Name:</span>
-                        <span class="info-value">Sridhar Y Gowdar</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-title">Email:</span>
-                        <span class="info-value">sridharygowdar@gmail.com</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-title">Phone:</span>
-                        <span class="info-value">8073077375</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-title">Date of Birth:</span>
-                        <span class="info-value">15-08-2001</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="info-title">Languages:</span>
-                        <span class="info-value">English, Kannada, Hindi, Tamil, Telugu</span>
+        </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section id="experience" class="bg-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Experience & Education</h2>
+            </div>
+            
+            <div class="timeline reveal">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-brain"></i></div>
+                    <span class="timeline-date">Feb 2026 – Ongoing</span>
+                    <div class="timeline-content glass-card">
+                        <h3>Engineering Intern – Data Science & ML</h3>
+                        <h4>AIIMS Technology Council (IIMSTC)</h4>
+                        <p>Developing Data Science and Machine Learning models for engineering research projects. Engaging in simulation-based learning and global corporate case study discussions.</p>
                     </div>
                 </div>
-                <div class="about-buttons">
-                    <a href="./MyResume.pdf" download="MyResume.pdf" class="btn primary">Download CV</a>
-                    <a href="#contact" class="btn secondary">Contact Me</a>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-laptop-code"></i></div>
+                    <span class="timeline-date">Jan 2026 – Mar 2026</span>
+                    <div class="timeline-content glass-card">
+                        <h3>Java Full-Stack Intern</h3>
+                        <h4>Infosys Springboard</h4>
+                        <p>Building a Smart e-Waste Management System using Spring Boot. Architecting backend solutions for secure user authentication and scheduling utilizing Agile methodologies.</p>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-chart-line"></i></div>
+                    <span class="timeline-date">Jul 2025 – Aug 2025</span>
+                    <div class="timeline-content glass-card">
+                        <h3>AI and Data Analytics Intern</h3>
+                        <h4>AICTE, Shell India</h4>
+                        <p>Engineered an ML model for EV Charging Demand Prediction and infrastructure forecasting.</p>
+                    </div>
+                </div>
+                
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <span class="timeline-date">2022 - 2026</span>
+                    <div class="timeline-content glass-card">
+                        <h3>B.E. Computer Science and Engineering</h3>
+                        <h4>RR Institute of Technology | VTU</h4>
+                        <p>Currently pursuing degree with a CGPA of 8.52/10. Active participant in hackathons and technical events.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="section-header">
-            <h2>My Skills</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="skills-content">
-            <div class="skill-categories">
-                <div class="skill-category active" data-category="development">Development</div>
-                <div class="skill-category" data-category="design">Design</div>
-                <div class="skill-category" data-category="languages">Languages</div>
-                <div class="skill-category" data-category="other">Other</div>
+    <section id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Technical Skills</h2>
             </div>
             
-            <div class="skills-container">
-                <!-- Development Skills -->
-                <div class="skill-group active" id="development">
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
-                        <h3>HTML</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="90"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
-                        <h3>CSS</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="85"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-js"></i></div>
-                        <h3>JavaScript</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="80"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-php"></i></div>
-                        <h3>PHP</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="75"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-database"></i></div>
-                        <h3>MySQL</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="70"></div>
-                        </div>
+            <div class="skills-grid reveal">
+                <div class="skill-category-card glass-card">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">JavaScript</span>
                     </div>
                 </div>
-                
-                <!-- Design Skills -->
-                <div class="skill-group" id="design">
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
-                        <h3>Web Design</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="85"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-desktop"></i></div>
-                        <h3>Frontend Development</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="80"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Programming Languages -->
-                <div class="skill-group" id="languages">
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-code"></i></div>
-                        <h3>C Language</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="75"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-java"></i></div>
-                        <h3>Java</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="70"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-python"></i></div>
-                        <h3>Python</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="65"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Other Skills -->
-                <div class="skill-group" id="other">
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
-                        <h3>Data Analytics</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="70"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-video"></i></div>
-                        <h3>Video Editing</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="80"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-camera"></i></div>
-                        <h3>Photo Editing</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="75"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-pencil-alt"></i></div>
-                        <h3>Content Creation</h3>
-                        <div class="skill-progress">
-                            <div class="progress" data-value="85"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="section-header">
-            <h2>Education</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-graduation-cap"></i>
-                </div>
-                <div class="timeline-content">
-                    <div class="timeline-date">2022 - 2026</div>
-                    <h3>Bachelor of Engineering in Computer Science</h3>
-                    <p>RR Institute of Technology</p>
-                    <div class="timeline-info">
-                        <div class="info-item">
-                            <span class="info-title">Board:</span>
-                            <span class="info-value">VTU</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-title">CGPA:</span>
-                            <span class="info-value">Expected in 2026</span>
-                        </div>
+                <div class="skill-category-card glass-card">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Tailwind CSS</span>
                     </div>
                 </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-school"></i>
-                </div>
-                <div class="timeline-content">
-                    <div class="timeline-date">2019 - 2021</div>
-                    <h3>12th Science</h3>
-                    <p>Ascent Pre-University College</p>
-                    <div class="timeline-info">
-                        <div class="info-item">
-                            <span class="info-title">Board:</span>
-                            <span class="info-value">Karnataka</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-title">Percentage:</span>
-                            <span class="info-value">93.5%</span>
-                        </div>
+
+                <div class="skill-category-card glass-card">
+                    <h3><i class="fas fa-database"></i> Database & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">GCP</span>
                     </div>
                 </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-school"></i>
-                </div>
-                <div class="timeline-content">
-                    <div class="timeline-date">2019</div>
-                    <h3>10th Standard</h3>
-                    <p>New Oxford Public School</p>
-                    <div class="timeline-info">
-                        <div class="info-item">
-                            <span class="info-title">Board:</span>
-                            <span class="info-value">KSEEB</span>
-                        </div>
-                        <div class="info-item">
-                            <span class="info-title">Percentage:</span>
-                            <span class="info-value">90.8%</span>
-                        </div>
+
+                <div class="skill-category-card glass-card">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Vercel</span>
+                        <span class="skill-tag">Streamlit</span>
+                        <span class="skill-tag">Arduino IDE</span>
                     </div>
                 </div>
             </div>
@@ -304,394 +197,205 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="section-header">
-            <h2>My Projects</h2>
-            <div class="underline"></div>
-        </div>
-        
-        <!-- Major Projects Heading -->
-        <div style="text-align: center; margin-bottom: 3rem;">
-            <h3 style="font-size: 2.4rem; color: var(--primary-color);">Top Major Projects</h3>
-        </div>
-        
-        <!-- Major Projects Container -->
-        <div class="projects-container">
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project-cellverse.svg" alt="CELL-VERSE-BAM-AI">
+    <section id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Featured Projects</h2>
+            </div>
+            
+            <!-- SPP HIGHLIGHT -->
+            <div class="spp-banner reveal glass-card">
+                <div class="spp-content">
+                    <span class="spp-badge">Official Selection</span>
+                    <h3>49th Series SPP (2025-26)</h3>
+                    <p>Our final-year project, <strong>Sampoorna Krishi (AI FinTech Platform for Farmers)</strong>, has secured official funding & support under the Student Project Programme!</p>
+                    <div class="funding-tags">
+                        <div class="f-tag"><i class="fas fa-coins"></i> ARTPARK, IISc Funding</div>
+                        <div class="f-tag"><i class="fas fa-lightbulb"></i> KSCST Guidance</div>
+                    </div>
                 </div>
-                <div class="project-content">
-                    <h3>CELL-VERSE-BAM-AI</h3>
-                    <p>An innovative AI platform for cellular analysis and visualization with advanced BAM (Biological Analysis Module) integration.</p>
-                    <div class="project-tech">
-                        <span>React</span>
-                        <span>AI/ML</span>
-                        <span>Python</span>
-                        <span>TensorFlow</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://sridhar-y-g.github.io/CELL-VERSE-BAM-AI/" target="_blank" class="btn primary">View Project</a>
-                        <a href="https://github.com/sridhar-y-g/CELL-VERSE-BAM-AI" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
+                <div class="spp-action">
+                    <a href="KSCST_SPP_Project.pdf" target="_blank" class="btn primary">View Sanction List <i class="fas fa-arrow-right" style="margin-left:8px;"></i></a>
                 </div>
             </div>
             
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project-genz.svg" alt="GenZ-finance">
-                </div>
-                <div class="project-content">
-                    <h3>GenZ-finance</h3>
-                    <p>A modern financial platform designed specifically for Gen Z users, featuring intuitive budgeting tools and investment education.</p>
-                    <div class="project-tech">
-                        <span>JavaScript</span>
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>MongoDB</span>
+            <div class="projects-grid reveal">
+                <!-- Featured Top Project: Sampoorna Krishi -->
+                <div class="project-card featured glass-card">
+                    <div class="project-img">
+                        <!-- Placeholder or explicit image -->
+                        <div style="width:100%; height:100%; display:flex; align-items:center; justify-content:center; background:rgba(0,242,254,0.1);">
+                            <i class="fas fa-leaf" style="font-size: 5rem; color: #00f2fe;"></i>
+                        </div>
                     </div>
-                    <div class="project-links">
-                        <a href="https://sridhar-y-g.github.io/GenZ-finance/" target="_blank" class="btn primary">View Project</a>
-                        <a href="https://github.com/sridhar-y-g/GenZ-finance" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project-rrit.svg" alt="RRIT-E_CELL">
-                </div>
-                <div class="project-content">
-                    <h3>RRIT-E_CELL</h3>
-                    <p>A comprehensive platform for the Entrepreneurship Cell at RR Institute of Technology, facilitating events, resources, and networking.</p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Bootstrap</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://sridhar-y-g.github.io/RRIT-E_CELL/" target="_blank" class="btn primary">View Project</a>
-                        <a href="https://github.com/sridhar-y-g/RRIT-E_CELL" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+                    <div class="project-info">
+                        <h3>Sampoorna Krishi</h3>
+                        <p>An AI-driven FinTech platform to empower Indian farmers with financial tools. Integrated ShadCN UI and Genkit for advanced AI features and a modern interface.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>Genkit</span>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sridhar-y-g" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project-ai-ip.svg" alt="AI-IP-Fortress">
-                </div>
-                <div class="project-content">
-                    <h3>AI-IP-Fortress</h3>
-                    <p>An advanced AI-powered platform for intellectual property protection and management, featuring automated patent analysis.</p>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>AI/ML</span>
-                        <span>NLP</span>
-                        <span>React</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/sridhar-y-g/AI-IP-Fortress-" target="_blank" class="btn primary">View Project</a>
-                        <a href="https://github.com/sridhar-y-g/AI-IP-Fortress-" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-info">
+                        <h3>CELL-VERSE-BAM-AI</h3>
+                        <p>Architected a deep learning model for automated medical diagnosis and advanced health analysis visualization.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Deep Learning</span>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sridhar-y-g/CELL-VERSE-BAM-AI" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://sridhar-y-g.github.io/CELL-VERSE-BAM-AI/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project-agro.svg" alt="Agro-Harmony-AI">
-                </div>
-                <div class="project-content">
-                    <h3>Agro-Harmony-AI</h3>
-                    <p>An AI-driven agricultural platform that optimizes farming practices, predicts crop yields, and provides sustainable farming recommendations.</p>
-                    <div class="project-tech">
-                        <span>AI/ML</span>
-                        <span>IoT</span>
-                        <span>React</span>
-                        <span>Python</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://preview--agro-harmony-ai.lovable.app/" target="_blank" class="btn primary">View Project</a>
-                        <a href="#" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-info">
+                        <h3>GenZ-Finance</h3>
+                        <p>Developed a personal finance app featuring automated expense tracking and budgeting tools for Gen Z users.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sridhar-y-g/GenZ-finance" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://sridhar-y-g.github.io/GenZ-finance/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Other Projects Heading -->
-            <div style="text-align: center; margin: 5rem 0 3rem; grid-column: 1 / -1;">
-                <h3 style="font-size: 2.4rem; color: var(--primary-color);">Other Projects</h3>
-            </div>
-            
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project1.svg" alt="VTU E-Notes Website">
-                </div>
-                <div class="project-content">
-                    <h3>VTU E-Notes Website</h3>
-                    <p>A comprehensive platform for VTU students to access lecture notes, question papers, and study materials.</p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>PHP</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="projects/vtu-enotes.html" class="btn primary">View Details</a>
-                        <a href="#" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project2.svg" alt="Face Detection Attendance System">
-                </div>
-                <div class="project-content">
-                    <h3>Face Detection Attendance System</h3>
-                    <p>An automated attendance system using facial recognition technology to track student attendance.</p>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>OpenCV</span>
-                        <span>Machine Learning</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="projects/face-detection.html" class="btn primary">View Details</a>
-                        <a href="#" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project3.svg" alt="Object Distance Indicator (IoT)">
-                </div>
-                <div class="project-content">
-                    <h3>Object Distance Indicator (IoT)</h3>
-                    <p>An IoT-based system that detects and measures the distance of objects using sensors.</p>
-                    <div class="project-tech">
-                        <span>Arduino</span>
-                        <span>IoT</span>
-                        <span>C++</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="projects/object-distance.html" class="btn primary">View Details</a>
-                        <a href="#" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project4.svg" alt="Event Theme Based Website">
-                </div>
-                <div class="project-content">
-                    <h3>Event Theme Based Website</h3>
-                    <p>A dynamic website for event management with customizable themes and registration functionality.</p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>PHP</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="projects/event-theme.html" class="btn primary">View Details</a>
-                        <a href="#" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project5.svg" alt="Daily Expenses Management">
-                </div>
-                <div class="project-content">
-                    <h3>Daily Expenses Management</h3>
-                    <p>A web application to track and manage daily expenses with visualization and budget planning features.</p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Chart.js</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="projects/expenses-management.html" class="btn primary">View Details</a>
-                        <a href="#" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
-                    </div>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="images/project6.svg" alt="Hackathon Website">
-                </div>
-                <div class="project-content">
-                    <h3>Hackathon Website</h3>
-                    <p>A platform for organizing and participating in hackathons with team formation and project submission features.</p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Node.js</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="projects/hackathon.html" class="btn primary">View Details</a>
-                        <a href="#" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card">
+                    <div class="project-info">
+                        <h3>Object Distance Indicator</h3>
+                        <p>Built an IoT device utilizing ultrasonic sensors for precise distance measurement and processing.</p>
+                        <div class="tech-stack">
+                            <span>Arduino</span>
+                            <span>IoT</span>
+                            <span>C++</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications">
-        <div class="section-header">
-            <h2>Certifications</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="certifications-container">
-            <div class="certification-card">
-                <div class="certification-icon">
-                    <i class="fas fa-certificate"></i>
-                </div>
-                <div class="certification-content">
-                    <h3>Web Technology</h3>
-                    <p>Swayam</p>
-                    <a href="https://onlinecourses.swayam2.ac.in/nou24_cs09/certificate?q=GMMP66W5TztBr2hkGzBKhj9g3CrBGfC02z5Zz38b0JYsPJpvUui3%2BzFfUkB0cvb0" class="btn secondary">View Certificate</a>
-                </div>
+    <!-- Certifications & Awards Section -->
+    <section id="certifications" class="bg-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Certifications & Awards</h2>
             </div>
-            <div class="certification-card">
-                <div class="certification-icon">
-                    <i class="fas fa-shield-alt"></i>
+            
+            <div class="certs-grid reveal">
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="cert-info">
+                        <h3>TCS iON NQT-Cognitive</h3>
+                        <p>Secured Percentage - 81.33%</p>
+                    </div>
                 </div>
-                <div class="certification-content">
-                    <h3>Cyber Security</h3>
-                    <p>Coursera</p>
-                    <a href="https://www.coursera.org/account/accomplishments/verify/4LN5YD5GK2G4?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" class="btn secondary">View Certificate</a>
+                
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fas fa-medal"></i></div>
+                    <div class="cert-info">
+                        <h3>Academic Excellence Medal</h3>
+                        <p>Awarded during B.E 2nd year</p>
+                    </div>
                 </div>
-            </div>
-            <div class="certification-card">
-                <div class="certification-icon">
-                    <i class="fas fa-cloud"></i>
+                
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="cert-info">
+                        <h3>Cyber Security</h3>
+                        <p>Coursera</p>
+                    </div>
                 </div>
-                <div class="certification-content">
-                    <h3>Cloud Computing</h3>
-                    <p>NPTEL</p>
-                    <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs118/Course/NPTEL24CS118S95280164404332680.pdf" class="btn secondary">View Certificate</a>
-                </div>
-            </div>
-            <div class="certification-card">
-                <div class="certification-icon">
-                    <i class="fas fa-chart-bar"></i>
-                </div>
-                <div class="certification-content">
-                    <h3>Data Analytics</h3>
-                    <p>Online Course</p>
-                    <a href="#" class="btn secondary">View Certificate</a>
+                
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class="fas fa-cloud"></i></div>
+                    <div class="cert-info">
+                        <h3>Cloud Computing</h3>
+                        <p>NPTEL</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="section-header">
-            <h2>Contact Me</h2>
-            <div class="underline"></div>
-        </div>
-        <div class="contact-container">
-            <div class="contact-info">
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="contact-text">
-                        <h3>Email</h3>
-                        <p>sridharygowdar@gmail.com</p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                    <div class="contact-text">
-                        <h3>Phone</h3>
-                        <p>8073077375</p>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="contact-text">
-                        <h3>Location</h3>
-                        <p>Bengaluru , Karnataka, India</p>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/sridhar-y-gowdar-66a74a276" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/sridhar-y-g" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/sridhar-y-gowdar-66a74a276"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/sridhar-y-gowdar-66a74a276"><i class="fab fa-instagram"></i></a>
-                </div>
+    <section id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Get In Touch</h2>
             </div>
-            <div class="contact-form">
-                <form id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                        <label for="name">Your Name</label>
+            
+            <div class="contact-grid reveal">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h3>Email Me</h3>
+                            <p>sridharygowdar@gmail.com</p>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                        <label for="email">Your Email</label>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">
+                            <h3>Call Me</h3>
+                            <p>+91 8073077375</p>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                        <label for="subject">Subject</label>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Bengaluru, Karnataka, India</p>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-                        <label for="message">Your Message</label>
-                    </div>
-                    <button type="submit" class="btn primary">Send Message</button>
-                </form>
+                </div>
+                
+                <div class="contact-form glass-card">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message <i class="fas fa-paper-plane" style="margin-left:8px;"></i></button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <h2>Sridhar Y Gowdar</h2>
-                <p>Web Developer</p>
-            </div>
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h3>Contact Info</h3>
-                <p><i class="fas fa-envelope"></i> sridharygowdar@gmail.com</p>
-                <p><i class="fas fa-phone"></i> 8073077375</p>
-                <div class="footer-social">
-                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 Sridhar Y Gowdar. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Sridhar Y Gowdar. Built with passion & innovation.</p>
         </div>
     </footer>
-
-    <!-- Back to Top Button -->
-    <a href="#home" class="back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
 
     <!-- Scripts -->
     <script src="js/script.js"></script>
